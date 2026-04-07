@@ -1,0 +1,33 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "siftystudio",
+  "owner": {
+    "name": "Sifty",
+    "email": "support@sifty.studio",
+    "url": "https://sifty.studio"
+  },
+  "description": "Plugins for the product offerings from Sifty, a software studio specializing in art and entertainment",
+  "plugins": [
+    {
+      "name": "viv",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/siftystudio/viv.git",
+        "path": "plugins/claude",
+        "ref": "main"
+      },
+      "description": "Author and developer support for the Viv engine for emergent narrative",
+      "version": "0.9.0",
+      "author": {
+        "name": "James Ryan",
+        "email": "james@sifty.studio",
+        "url": "https://jamesryan.ai"
+      },
+      "homepage": "https://github.com/siftystudio/viv/blob/main/plugins/claude",
+      "repository": "https://github.com/siftystudio/viv",
+      "license": "SEE LICENSE IN LICENSE.txt",
+      "keywords": ["viv", "dsl", "emergent-narrative", "games", "simulation"],
+      "category": "development"
+    }
+  ]
+}
