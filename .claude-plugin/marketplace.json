@@ -16,18 +16,10 @@
         "path": "plugins/claude",
         "ref": "main"
       },
-      "description": "Author and developer support for the Viv engine for emergent narrative",
-      "version": "0.9.0",
-      "author": {
-        "name": "James Ryan",
-        "email": "james@sifty.studio",
-        "url": "https://jamesryan.ai"
-      },
-      "homepage": "https://github.com/siftystudio/viv/blob/main/plugins/claude",
-      "repository": "https://github.com/siftystudio/viv",
-      "license": "SEE LICENSE IN LICENSE.txt",
+      "description": "A Viv expert in your terminal.",
+      "category": "development",
       "keywords": ["viv", "dsl", "emergent-narrative", "games", "simulation"],
-      "category": "development"
+      "strict": true
     }
   ]
 }
